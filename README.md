@@ -1,12 +1,15 @@
 # EXTRA (EXplanaTion RAnking) Datasets
 
-## Paper
-> Lei Li, Yongfeng Zhang, Li Chen. EXTRA: Explanation Ranking Datasets for Explainable Recommendation. SIGIR'21 Resource. \[[Paper](https://arxiv.org/abs/2102.10315)\]
+## Papers
+- Lei Li, Yongfeng Zhang, Li Chen. [EXTRA: Explanation Ranking Datasets for Explainable Recommendation](https://lileipisces.github.io/files/SIGIR21-EXTRA-paper.pdf). SIGIR'21 Resource.
+- Lei Li, Yongfeng Zhang, Li Chen. [Learning to Explain Recommendations](https://arxiv.org/abs/2102.00627). 2021.
 
 ## Datasets to [download](https://drive.google.com/drive/folders/1Kb4pOCUja1EgDlhP-YQI8AxofHBkioT5?usp=sharing)
 - Amazon Movies & TV
 - TripAdvisor Hong Kong
 - Yelp 2019
+
+If you are interested in how to build models on the datasets, please refer to [BPER](https://github.com/lileipisces/BPER).
 
 ## Data format
 - **IDs.pickle** can be loaded via the pickle package as a python list, where each record is a python dict in the form of
@@ -41,17 +44,23 @@
 - Run the program on a machine with sufficient memory
 - Creating the datasets may take some time (e.g., hours for Yelp)
 
-## Code dependency
+## Code dependencies
 - Python 3.6
 - NLTK
 - [Datasketch](http://ekzhu.com/datasketch/lsh.html)
 
-## Citation
+## Citations
 ```
 @inproceedings{SIGIR21-EXTRA,
 	title={EXTRA: Explanation Ranking Datasets for Explainable Recommendation},
 	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
 	booktitle={SIGIR},
 	year={2021}
+}
+@article{2021-BPER,
+  title={Learning to Explain Recommendations},
+  author={Li, Lei and Zhang, Yongfeng and Chen, Li},
+  journal={arXiv preprint arXiv:2102.00627},
+  year={2021}
 }
 ```
