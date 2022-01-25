@@ -2,7 +2,7 @@
 
 ## Papers
 - Lei Li, Yongfeng Zhang, Li Chen. [EXTRA: Explanation Ranking Datasets for Explainable Recommendation](https://lileipisces.github.io/files/SIGIR21-EXTRA-paper.pdf). SIGIR'21 Resource.
-- Lei Li, Yongfeng Zhang, Li Chen. [Learning to Explain Recommendations](https://arxiv.org/abs/2102.00627). 2021.
+- Lei Li, Yongfeng Zhang, Li Chen. [On the Relationship between Explanation and Recommendation: Learning to Rank Explanations for Improved Performance](https://arxiv.org/abs/2102.00627). 2021.
 
 ## Datasets to [download](https://drive.google.com/drive/folders/1Kb4pOCUja1EgDlhP-YQI8AxofHBkioT5?usp=sharing)
 - Amazon Movies & TV
@@ -58,9 +58,9 @@ If you are interested in how to build models on the datasets, please refer to [B
 	year={2021}
 }
 @article{2021-BPER,
-  title={Learning to Explain Recommendations},
-  author={Li, Lei and Zhang, Yongfeng and Chen, Li},
-  journal={arXiv preprint arXiv:2102.00627},
-  year={2021}
+	title={On the Relationship between Explanation and Recommendation: Learning to Rank Explanations for Improved Performance},
+	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
+	journal={arXiv preprint arXiv:2102.00627},
+	year={2021}
 }
 ```
